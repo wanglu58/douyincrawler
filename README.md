@@ -14,10 +14,12 @@ pip3 install python-dateutil -i https://pypi.doubanio.com/simple/
 获取用户主页分享链接
 
 - 打开抖音-进入你要爬取的用户主页
-  ![1](https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/1.png)
+
+<img src="https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/1.png" width="200" alt="图片1"/>
 
 - 用户主页右上角点开-分享主页-复制链接
-  ![2](https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/2.png)
+
+<img src="https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/2.png" width="200" alt="图片2"/>
 
 粘贴你要爬取的抖音号的链接
 
@@ -28,3 +30,4 @@ pip3 install python-dateutil -i https://pypi.doubanio.com/simple/
 下载打包好的exe文件一键运行
 
 -  [douyincrawler.exe](https://github.com/wanglu58/douyincrawler/releases)
+
