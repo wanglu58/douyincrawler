@@ -36,7 +36,7 @@ pip3 install python-dateutil -i https://pypi.doubanio.com/simple/
 
     <img src="https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/4.png" width="400" alt="图片4"/>
 ## Release
-下载打包好的exe文件一键运行
+下载打包好的exe文件一键运行：
 
 -  [douyincrawler.exe](https://github.com/wanglu58/douyincrawler/releases)
 
