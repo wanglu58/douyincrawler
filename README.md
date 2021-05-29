@@ -26,6 +26,15 @@ pip3 install python-dateutil -i https://pypi.doubanio.com/simple/
 输入你要从哪个时间开始爬取（2018年1月：输入2018.01）
 
 它会自动创建文件夹并下载用户所有**无水印视频**。
+
+结果展示：
+- 启动
+  
+    <img src="https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/3.png" width="200" alt="图片3"/>
+
+- 下载的内容
+
+    <img src="https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/4.png" width="200" alt="图片4"/>
 ## Release
 下载打包好的exe文件一键运行
 
