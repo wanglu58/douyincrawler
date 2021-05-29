@@ -11,7 +11,7 @@ pip3 install python-dateutil -i https://pypi.doubanio.com/simple/
 ```
 运行py文件
 
-获取用户主页分享链接
+获取用户主页分享链接：
 
 - 打开抖音-进入你要爬取的用户主页
     
