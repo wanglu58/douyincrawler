@@ -1,7 +1,6 @@
 import datetime
 import json
 import os
-import random
 import re
 import time
 import uuid
@@ -60,7 +59,6 @@ for i in range(k):
             '_signature': 'PtCNCgAAXljWCq93QOKsFT7QjR'
         }
 
-        time.sleep(random.uniform(0.1, 1))
         awemehtml = requests.get(url=awemeurl, params=params, headers=headers).text
         data = json.loads(awemehtml)
         awemenum = len(data['aweme_list'])
