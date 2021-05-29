@@ -32,7 +32,7 @@ pip3 install python-dateutil -i https://pypi.doubanio.com/simple/
   
     <img src="https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/3.png" width="400" alt="图片3"/>
 
-- 下载的内容
+- 内容
 
     <img src="https://raw.githubusercontent.com/wanglu58/douyincrawler/master/screenshots/4.png" width="400" alt="图片4"/>
 ## Release
