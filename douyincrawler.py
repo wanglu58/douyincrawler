@@ -81,13 +81,16 @@ for i in range(k):
         data = json.loads(awemehtml)
         awemenum = len(data['aweme_list'])
         time_str = f"{timepool[i].split('-')[0]}.{timepool[i].split('-')[1]}"
+        num = 0
         for i in range(awemenum):
+            num += 1
             os.makedirs(f'{Path}/{time_str}-{awemenum}', exist_ok=True)
             videotitle = data['aweme_list'][i].get('desc')
             if not videotitle:
                 videotitle = str(uuid.uuid1())
             for s in '\\/:*?\"<>|':
                 videotitle = videotitle.replace(s, '')
+            videotitle = f'{num}-{videotitle}'
             videourl = data['aweme_list'][i]['video']['play_addr']['url_list'][0]
             json_data[videourl] = f'{Path}/{time_str}-{awemenum}/{videotitle}.mp4'
 
